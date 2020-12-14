@@ -1,6 +1,6 @@
 #!/bin/sh
-FRP_VERSION="0.33.0"
-REPO="stilleshan/frps"
+FRP_VERSION="0.34.3"
+REPO="rystudy/frps"
 WORK_PATH=$(dirname $(readlink -f $0))
 
 # 创建frp文件夹
