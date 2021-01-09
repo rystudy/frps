@@ -1,5 +1,5 @@
 #!/bin/sh
-FRP_VERSION=`curl -Ls -o /dev/null -w %{url_effective} https://github.com/fatedier/frp/releases/latest)`
+FRP_VERSION=`curl -Ls -o /dev/null -w %{url_effective} https://github.com/fatedier/frp/releases/latest`
 FRP_VERSION=`echo $FRP_VERSION | grep -Eo '[0-9]+.*'`
 echo "最新版本：$FRP_VERSION"
 REPO="rystudy/frps"
